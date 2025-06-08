@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome BCA Crew 2025</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.65);
+    }
+
+    .content {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      z-index: 1;
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 1.25rem;
+      color: #f0f0f0;
+    }
+
+    .signature {
+      margin-top: 2rem;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #fff;
+      padding: 10px 20px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      display: inline-block;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 114, 255, 0.8);
+      animation: pulseGlow 2s infinite;
+    }
+
+    @keyframes pulseGlow {
+      0% {
+        box-shadow: 0 0 10px rgba(0,114,255,0.5);
+      }
+      50% {
+        box-shadow: 0 0 25px rgba(0,114,255,1);
+      }
+      100% {
+        box-shadow: 0 0 10px rgba(0,114,255,0.5);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .content h1 {
+        font-size: 2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+
+      .signature {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content animate__animated animate__fadeInDown">
+      <h1>Welcome Danish &amp; Harshit</h1>
+      <p>🎓 Join the amazing journey of BCA Crew 2025!</p>
+      <div class="signature">— Welcoming by Nilesh Wagh</div>
+    </div>
+  </div>
+</body>
+</html>
